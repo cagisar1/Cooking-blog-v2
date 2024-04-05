@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lavender Kitchen</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/6f78ace1ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body class="bg-">
+    <header class="row bg-accent-800">
+        <nav class="container row main-navbar">
+            <button class="row menu-toggler">
+                <span class="hamburger"></span>
+            </button>
+            <div class="row logo-container">
+                <a href="home.html" class="text-secondary logo">
+                    <img src="media/lavender.png" class="logo-img" alt="lavender">Lavander
+                    <span class="sub-logo text-secondary">Kitchen</span>
+                </a>
+            </div>
+            <ul class="menu row bg-accent-800">
+                <li class="menu__item">
+                    <a href="#" class="menu__link text-secondary fs-100 shiny">about</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link text-secondary fs-100 shiny">recipes</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link text-secondary fs-100 shiny">favorites</a>
+                </li>
+                <li class="menu__item auth">
+                    <a href="#" class="menu__link text-secondary fs-100 shiny">sign in</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link text-secondary fs-100 menu__link--b">register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h1 class="main-title font-nunito text-dark">LATEST RECIPES</h1>
+        <div class="row">
+            
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <img src="media/broccoli-salad.jpg" alt="broccoli salad" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Salads</span>
+                                <a href="broccoli-salad.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">broccoli salad</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 20 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/carrot-cake-pancakes.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Breakfast</span>
+                                <a href="carrot-cake-pancakes.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">carrot cake pancakes</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/chicken-burrito-bowl.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Main dishes</span>
+                                <a href="chicken-burrito-bowl.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">chicken burrito bowl</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 50 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/choco-banana-bread.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Desserts</span>
+                                <a href="choco-banana-bread.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">chocolate banana bread</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 1h 5 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/feta-dip.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Snacks</span>
+                                <a href="feta-dip.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">creamy feta dip</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 10 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/lemon-blueberry-bread.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Desserts</span>
+                                <a href="lemon-blueberry-bread.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">lemon blueberry bread</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i>1h 5 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/shakshuka.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Breakfast</span>
+                                <a href="shakshuka.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">shakshuka</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 1h</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/stuffed-salmon.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Main dishes</span>
+                                <a href="stuffed-salmon.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">stuffed salmon</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 45 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/vegetable-frittata.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Breakfast</span>
+                                <a href="veggetable-fritatta.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">vegetable fritatta</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 35 mins</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <img src="media/zucchini-orzo-soup.jpg" alt="" class="card-img">
+                            <div class="card-content">
+                                <span class="card-category bg-accent-300 fs-100">Soups</span>
+                                <a href="zucchini-orzo-soup.html" class="title-link text-dark"><h2 class="card-title font-nunito fs-200">zucchini orzo soup</h2></a>
+                                <p class="card-details fs-100 text-dark"><i class="fa-solid fa-hourglass"></i> 55 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="slider">
+            <button id="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+            <div class="recipe-list"> 
+                    <div class="recipe-card">
+                    <img src="media/feta-dip.jpg" alt="Feta dip with vegetables" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/choco-banana-bread.jpg" alt="Banana bread with choco chips" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/stuffed-salmon.jpg" alt="Stuffed salmon" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/shakshuka.jpg" alt="Shaksuka" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/zucchini-orzo-soup.jpg" alt="Feta dip with vegetables" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/broccoli-salad.jpg" alt="Feta dip with vegetables" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/carrot-cake-pancakes.jpg" alt="Feta dip with vegetables" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/chicken-burrito-bowl.jpg" alt="Feta dip with vegetables" class="recipe__img">
+                </div>
+                <div class="recipe-card">
+                    <img src="media/lemon-blueberry-bread.jpg" alt="Feta dip with vegetables" class="recipe__img">
+
+                </div>
+                <div class="recipe-card">
+                    <img src="media/vegetable-frittata.jpg" alt="Feta dip with vegetables" class="recipe__img">
+
+                </div>
+            </div>
+            <button id="next-slide" class="slide-button material-symbols-outlined">chevron_right</button>
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+</body>
+</html>
